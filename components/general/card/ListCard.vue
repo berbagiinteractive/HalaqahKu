@@ -6,7 +6,7 @@
       <slot></slot>
     </div>
     <div>
-      <ul class="text-gray-600">
+      <ul class="text-gray-600 text-sm">
         <li v-for="element in list" :key="element">
           <hr class="-mx-4 my-4" />
           <div>{{ element.title }}</div>

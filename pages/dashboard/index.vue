@@ -67,13 +67,13 @@
         <p class="text-gray-500">List grup halaqah mu</p>
 
         <div class="flex flex-wrap -mx-2 mt-4">
-          <div class="p-2 w-1/3">
+          <div class="p-2 w-full md:w-1/3">
             <HalaqahCard :content="halaqah[0]"/>
           </div>
-          <div class="p-2 w-1/3">
+          <div class="p-2 w-full md:w-1/3">
             <HalaqahCard :content="halaqah[1]"/>
           </div>
-          <div class="p-2 w-1/3">
+          <div class="p-2 w-full md:w-1/3">
             <HalaqahCard :content="halaqah[2]"/>
           </div>
         </div>
